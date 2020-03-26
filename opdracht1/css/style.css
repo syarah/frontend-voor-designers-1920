@@ -1,16 +1,22 @@
-html{
-  box-sizing: border-box; /* https://css-tricks.com/box-sizing/ */
-  background:#A9A9A9 ;
-  
+html {
+    box-sizing: border-box;
+    /* https://css-tricks.com/box-sizing/ */
+    background: rgb(44, 44, 82);
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
-body{
-  max-width: 30em;
-  margin: 1em auto;
-  padding: 1em;
-  background: #D3D3D3;
-  border-radius: 1em;
-  box-shadow: 0.5em 0.5em 0.5em rgba(68,68,68,0.6);
+
+body {
+    max-width: 30em;
+    margin: 1em auto;
+    padding: 1em;
+    background: rgb(130, 121, 167);
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(68, 68, 68, 0.6);
+    font-style: normal;
+    font-family: monospace;
 }

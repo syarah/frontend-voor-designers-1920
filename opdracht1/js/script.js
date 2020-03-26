@@ -27,3 +27,13 @@ document.addEventListener("dragstart", function(event) {
     // make it half transparent
     event.target.style.opacity = .5;
 }, false);
+
+
+
+new Sortable(dragged, {
+    animation: 150,
+    ghostClass: 'blue-background-class'
+});
+
+var el = document.getElementById('items');
+var sortable = Sortable.create(el);
